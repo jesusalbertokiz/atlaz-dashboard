@@ -6,8 +6,9 @@ import { LayoutContext } from '../../../layout/context/layoutcontext';
 import { InputText } from 'primereact/inputtext';
 import { classNames } from 'primereact/utils';
 
-const LoginPage = () => {
+const RegisterPage = () => {
     const [password, setPassword] = useState('');
+    const [password2, setPassword2] = useState('');
     const { layoutConfig } = useContext(LayoutContext);
 
     const router = useRouter();
@@ -28,12 +29,17 @@ const LoginPage = () => {
                             <label htmlFor="email1" className="block text-900 text-xl font-medium mb-2">
                                 Correo
                             </label>
-                            <InputText inputid="email1" type="text" placeholder="Email address" className="w-full md:w-30rem mb-5" style={{ padding: '1rem' }} />
+                            <InputText inputid="email1" type="text" placeholder="Dirección de correo" className="w-full md:w-30rem mb-5" style={{ padding: '1rem' }} />
 
                             <label htmlFor="password1" className="block text-900 font-medium text-xl mb-2">
-                                Clave
+                                Contraseña
                             </label>
-                            <Password inputid="password1" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" toggleMask className="w-full mb-5" inputClassName="w-full p-3 md:w-30rem"></Password>
+                            <Password inputid="password1" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Contraseña" toggleMask className="w-full mb-5" inputClassName="w-full p-3 md:w-30rem"></Password>
+
+                            <label htmlFor="password2" className="block text-900 font-medium text-xl mb-2">
+                                Confirmar contraseña
+                            </label>
+                            <Password inputid="password2" value={password} onChange={(e) => setPassword2(e.target.value)} placeholder="Contraseña" toggleMask className="w-full mb-5" inputClassName="w-full p-3 md:w-30rem"></Password>
 
                             <div className="flex align-items-center justify-content-between mb-5 gap-5">
                             </div>
@@ -46,11 +52,11 @@ const LoginPage = () => {
     );
 };
 
-LoginPage.getLayout = function getLayout(page) {
+RegisterPage.getLayout = function getLayout(page) {
     return (
         <React.Fragment>
             {page}
         </React.Fragment>
     );
 };
-export default LoginPage;
+export default RegisterPage;
