@@ -36,6 +36,7 @@ const Dashboard = () => {
     const [lineOptions, setLineOptions] = useState(null);
     const { layoutConfig } = useContext(LayoutContext);
 
+
     const applyLightTheme = () => {
         const lineOptions = {
             plugins: {
