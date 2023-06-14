@@ -1,7 +1,7 @@
 {
-    "name": "sakai-react",
-    "version": "9.1.2",
-    "private": false,
+    "name": "atlaz-dashboard",
+    "version": "1.0.0",
+    "private": true,
     "scripts": {
         "dev": "next dev",
         "build": "next build",
@@ -9,9 +9,10 @@
         "lint": "next lint"
     },
     "dependencies": {
+        "chart.js": "4.2.1",
         "eslint": "8.38.0",
         "eslint-config-next": "13.3.0",
-        "chart.js": "4.2.1",
+        "mongoose": "^7.2.4",
         "next": "13.2.3",
         "primeflex": "3.3.0",
         "primeicons": "^6.0.1",
