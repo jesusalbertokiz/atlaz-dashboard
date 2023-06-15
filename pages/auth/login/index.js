@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useRouter } from 'next/router';
 import React, { useContext, useState } from 'react';
 import { Button } from 'primereact/button';
@@ -7,11 +8,25 @@ import { InputText } from 'primereact/inputtext';
 import { classNames } from 'primereact/utils';
 
 const LoginPage = () => {
-    const [password, setPassword] = useState('');
     const { layoutConfig } = useContext(LayoutContext);
-
-    const router = useRouter();
     const containerClassName = classNames('surface-ground flex align-items-center justify-content-center min-h-screen min-w-screen overflow-hidden', { 'p-input-filled': layoutConfig.inputStyle === 'filled' });
+
+
+
+    const [credentials, setCredentials] = useState({
+        email: "",
+        password: "",
+    });
+    const router = useRouter();
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        const res = await axios.post("/api/auth/login", credentials);
+    
+        if (res.status === 200) {
+          router.push("/");
+        }
+      };
 
     return (
         <div className={containerClassName}>
@@ -23,22 +38,21 @@ const LoginPage = () => {
                             <div className="text-900 text-3xl font-medium mb-3">Bienvenido Titan</div>
                             <span className="text-600 font-medium">Logueate para continuar</span>
                         </div>
-
-                        <div>
-                            <label htmlFor="email1" className="block text-900 text-xl font-medium mb-2">
+                        <form onSubmit={handleSubmit}>
+                            <label htmlFor="email" className="block text-900 text-xl font-medium mb-2">
                                 Correo
                             </label>
-                            <InputText inputid="email1" type="text" placeholder="Email address" className="w-full md:w-30rem mb-5" style={{ padding: '1rem' }} />
+                            <InputText inputid="email" type="text" onChange={(e) => setCredentials({ ...credentials, email: e.target.value })} placeholder="Email address" className="w-full md:w-30rem mb-5" style={{ padding: '1rem' }} />
 
-                            <label htmlFor="password1" className="block text-900 font-medium text-xl mb-2">
+                            <label htmlFor="password" className="block text-900 font-medium text-xl mb-2">
                                 Clave
                             </label>
-                            <Password inputid="password1" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" toggleMask className="w-full mb-5" inputClassName="w-full p-3 md:w-30rem"></Password>
+                            <Password inputid="password" onChange={(e) => setCredentials({ ...credentials, password: e.target.value })} placeholder="Password" toggleMask className="w-full mb-5" inputClassName="w-full p-3 md:w-30rem"></Password>
 
                             <div className="flex align-items-center justify-content-between mb-5 gap-5">
                             </div>
-                            <Button label="Sign In" className="w-full p-3 text-xl" onClick={() => router.push('/')}></Button>
-                        </div>
+                            <Button label="Sign In" className="w-full p-3 text-xl"></Button>
+                        </form>
                     </div>
                 </div>
             </div>
