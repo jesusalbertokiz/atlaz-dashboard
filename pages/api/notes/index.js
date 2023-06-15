@@ -2,6 +2,7 @@ import { dbConnect } from "../../../db/db";
 import Notes from "../../../models/notes";
 
 dbConnect()
+
 export default async function handler(req, res)
 {
     const {method, body} = req
