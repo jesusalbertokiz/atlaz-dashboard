@@ -102,10 +102,6 @@ const Dashboard = () => {
     };
 
     useEffect(() => {
-        ProductService.getProductsSmall().then((data) => setProducts(data));
-    }, []);
-
-    useEffect(() => {
         if (layoutConfig.colorScheme === 'light') {
             applyLightTheme();
         } else {
@@ -113,13 +109,19 @@ const Dashboard = () => {
         }
     }, [layoutConfig.colorScheme]);
 
+
+/////////////////////
+    useEffect(() => {
+        ProductService.getProductsSmall().then((data) => setProducts(data));
+    }, []);
+
     const formatCurrency = (value) => {
         return value.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
     };
+////////////////////
 
     return (
         <div className="grid">
-
 {/*Parte del panel principal*/}
             <div className="col-12 lg:col-6 xl:col-3">
                 <div className="card mb-0">
