@@ -6,157 +6,139 @@ const AppMenu = () => {
 
     const model = [
         {
-            label: 'Home',
-            items: [{ label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/' }]
-        },
-        {
-            label: 'UI Components',
+            label: 'Inicio',
             items: [
-                { label: 'Form Layout', icon: 'pi pi-fw pi-id-card', to: '/uikit/formlayout' },
-                { label: 'Input', icon: 'pi pi-fw pi-check-square', to: '/uikit/input' },
-                { label: 'Float Label', icon: 'pi pi-fw pi-bookmark', to: '/uikit/floatlabel' },
-                { label: 'Invalid State', icon: 'pi pi-fw pi-exclamation-circle', to: '/uikit/invalidstate' },
-                { label: 'Button', icon: 'pi pi-fw pi-mobile', to: '/uikit/button', class: 'rotated-icon' },
-                { label: 'Table', icon: 'pi pi-fw pi-table', to: '/uikit/table' },
-                { label: 'List', icon: 'pi pi-fw pi-list', to: '/uikit/list' },
-                { label: 'Tree', icon: 'pi pi-fw pi-share-alt', to: '/uikit/tree' },
-                { label: 'Panel', icon: 'pi pi-fw pi-tablet', to: '/uikit/panel' },
-                { label: 'Overlay', icon: 'pi pi-fw pi-clone', to: '/uikit/overlay' },
-                { label: 'Media', icon: 'pi pi-fw pi-image', to: '/uikit/media' },
-                { label: 'Menu', icon: 'pi pi-fw pi-bars', to: '/uikit/menu', preventExact: true },
-                { label: 'Message', icon: 'pi pi-fw pi-comment', to: '/uikit/message' },
-                { label: 'File', icon: 'pi pi-fw pi-file', to: '/uikit/file' },
-                { label: 'Chart', icon: 'pi pi-fw pi-chart-bar', to: '/uikit/charts' },
-                { label: 'Misc', icon: 'pi pi-fw pi-circle', to: '/uikit/misc' }
-            ]
-        },
-        {
-            label: 'Prime Blocks',
-            items: [
-                { label: 'Free Blocks', icon: 'pi pi-fw pi-eye', to: '/blocks', badge: 'NEW' },
-                { label: 'All Blocks', icon: 'pi pi-fw pi-globe', url: 'https://blocks.primereact.org', target: '_blank' }
-            ]
-        },
-        {
-            label: 'Utilities',
-            items: [
-                { label: 'PrimeIcons', icon: 'pi pi-fw pi-prime', to: '/utilities/icons' },
-                { label: 'PrimeFlex', icon: 'pi pi-fw pi-desktop', url: 'https://www.primefaces.org/primeflex/', target: '_blank' }
-            ]
-        },
-        {
-            label: 'Pages',
-            icon: 'pi pi-fw pi-briefcase',
-            to: '/pages',
-            items: [
+                { label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/' },
                 {
-                    label: 'Landing',
-                    icon: 'pi pi-fw pi-globe',
-                    to: '/landing'
-                },
-                {
-                    label: 'Auth',
-                    icon: 'pi pi-fw pi-user',
+                    label: 'Estados',
+                    icon: 'pi pi-map',
                     items: [
                         {
-                            label: 'Login',
-                            icon: 'pi pi-fw pi-sign-in',
-                            to: '/auth/login'
+                          label: "Amazonas",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/amazonas"
                         },
                         {
-                            label: 'Error',
-                            icon: 'pi pi-fw pi-times-circle',
-                            to: '/auth/error'
+                          label: "Anzoátegui",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/anzoátegui"
                         },
                         {
-                            label: 'Access Denied',
-                            icon: 'pi pi-fw pi-lock',
-                            to: '/auth/access'
+                          label: "Apure",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/apure"
+                        },
+                        {
+                          label: "Aragua",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/aragua"
+                        },
+                        {
+                          label: "Barinas",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/barinas"
+                        },
+                        {
+                          label: "Bolívar",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/bolívar"
+                        },
+                        {
+                          label: "Carabobo",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/carabobo"
+                        },
+                        {
+                          label: "Cojedes",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/cojedes"
+                        },
+                        {
+                          label: "Delta Amacuro",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/delta-amacuro"
+                        },
+                        {
+                          label: "Distrito Capital",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/distrito-capital"
+                        },
+                        {
+                          label: "Falcón",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/falcón"
+                        },
+                        {
+                          label: "Guárico",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/guárico"
+                        },
+                        {
+                          label: "Lara",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/lara"
+                        },
+                        {
+                          label: "Mérida",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/mérida"
+                        },
+                        {
+                          label: "Miranda",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/miranda"
+                        },
+                        {
+                          label: "Monagas",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/monagas"
+                        },
+                        {
+                          label: "Nueva Esparta",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/nueva-esparta"
+                        },
+                        {
+                          label: "Portuguesa",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/portuguesa"
+                        },
+                        {
+                          label: "Sucre",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/sucre"
+                        },
+                        {
+                          label: "Táchira",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/táchira"
+                        },
+                        {
+                          label: "Trujillo",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/trujillo"
+                        },
+                        {
+                          label: "Vargas",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/vargas"
+                        },
+                        {
+                          label: "Yaracuy",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/yaracuy"
+                        },
+                        {
+                          label: "Zulia",
+                          icon: "pi pi-flag-fill",
+                          to: "/estado/zulia"
                         }
-                    ]
+                      ]
                 },
-                {
-                    label: 'Crud',
-                    icon: 'pi pi-fw pi-pencil',
-                    to: '/pages/crud'
-                },
-                {
-                    label: 'Timeline',
-                    icon: 'pi pi-fw pi-calendar',
-                    to: '/pages/timeline'
-                },
-                {
-                    label: 'Not Found',
-                    icon: 'pi pi-fw pi-exclamation-circle',
-                    to: '/pages/notfound'
-                },
-                {
-                    label: 'Empty',
-                    icon: 'pi pi-fw pi-circle-off',
-                    to: '/pages/empty'
-                }
+                { label: 'Notas', icon: 'pi pi-fw pi-home', to: '/notes' }
+            
             ]
         },
-        {
-            label: 'Hierarchy',
-            items: [
-                {
-                    label: 'Submenu 1',
-                    icon: 'pi pi-fw pi-bookmark',
-                    items: [
-                        {
-                            label: 'Submenu 1.1',
-                            icon: 'pi pi-fw pi-bookmark',
-                            items: [
-                                { label: 'Submenu 1.1.1', icon: 'pi pi-fw pi-bookmark' },
-                                { label: 'Submenu 1.1.2', icon: 'pi pi-fw pi-bookmark' },
-                                { label: 'Submenu 1.1.3', icon: 'pi pi-fw pi-bookmark' }
-                            ]
-                        },
-                        {
-                            label: 'Submenu 1.2',
-                            icon: 'pi pi-fw pi-bookmark',
-                            items: [{ label: 'Submenu 1.2.1', icon: 'pi pi-fw pi-bookmark' }]
-                        }
-                    ]
-                },
-                {
-                    label: 'Submenu 2',
-                    icon: 'pi pi-fw pi-bookmark',
-                    items: [
-                        {
-                            label: 'Submenu 2.1',
-                            icon: 'pi pi-fw pi-bookmark',
-                            items: [
-                                { label: 'Submenu 2.1.1', icon: 'pi pi-fw pi-bookmark' },
-                                { label: 'Submenu 2.1.2', icon: 'pi pi-fw pi-bookmark' }
-                            ]
-                        },
-                        {
-                            label: 'Submenu 2.2',
-                            icon: 'pi pi-fw pi-bookmark',
-                            items: [{ label: 'Submenu 2.2.1', icon: 'pi pi-fw pi-bookmark' }]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            label: 'Get Started',
-            items: [
-                {
-                    label: 'Documentation',
-                    icon: 'pi pi-fw pi-question',
-                    to: '/documentation'
-                },
-                {
-                    label: 'View Source',
-                    icon: 'pi pi-fw pi-search',
-                    url: 'https://github.com/primefaces/sakai-react',
-                    target: '_blank'
-                }
-            ]
-        }
     ];
 
     return (

@@ -3,6 +3,7 @@ import { classNames } from 'primereact/utils';
 import React, { forwardRef, useContext, useImperativeHandle, useRef } from 'react';
 import { LayoutContext } from './context/layoutcontext';
 import AppConfig from './AppConfig';
+import Logout from '../src/components/logout';
 
 
 const AppTopbar = forwardRef((props, ref) => {
@@ -32,10 +33,7 @@ const AppTopbar = forwardRef((props, ref) => {
             </button>
 
             <div ref={topbarmenuRef} className={classNames('layout-topbar-menu', { 'layout-topbar-menu-mobile-active': layoutState.profileSidebarVisible })}>
-                <button type="button" className="p-link layout-topbar-button">
-                    <i className="pi pi-user"></i>
-                    <span>Profile</span>
-                </button>
+                <Logout/>
                 <AppConfig/>
             </div>
         </div>

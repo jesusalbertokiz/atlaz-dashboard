@@ -36,7 +36,6 @@ const LoginPage = () => {
                         <div className="text-center mb-5">
                             <img src={`/layout/images/logo-${layoutConfig.colorScheme === 'light' ? 'dark' : 'white'}.svg`} alt="Atlaz logo" className="mb-5 w-12rem flex-shrink-0" />
                             <div className="text-900 text-3xl font-medium mb-3">Bienvenido Titan</div>
-                            <span className="text-600 font-medium">Logueate para continuar</span>
                         </div>
                         <form onSubmit={handleSubmit}>
                             <label htmlFor="email" className="block text-900 text-xl font-medium mb-2">
