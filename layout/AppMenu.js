@@ -13,127 +13,127 @@ const AppMenu = () => {
                     label: 'Estados',
                     icon: 'pi pi-map',
                     items: [
-                        {
-                          label: "Amazonas",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/amazonas"
-                        },
-                        {
-                          label: "Anzoátegui",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/anzoátegui"
-                        },
-                        {
-                          label: "Apure",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/apure"
-                        },
-                        {
-                          label: "Aragua",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/aragua"
-                        },
-                        {
-                          label: "Barinas",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/barinas"
-                        },
-                        {
-                          label: "Bolívar",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/bolívar"
-                        },
-                        {
-                          label: "Carabobo",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/carabobo"
-                        },
-                        {
-                          label: "Cojedes",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/cojedes"
-                        },
-                        {
-                          label: "Delta Amacuro",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/delta-amacuro"
-                        },
-                        {
-                          label: "Distrito Capital",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/distrito-capital"
-                        },
-                        {
-                          label: "Falcón",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/falcón"
-                        },
-                        {
-                          label: "Guárico",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/guárico"
-                        },
-                        {
-                          label: "Lara",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/lara"
-                        },
-                        {
-                          label: "Mérida",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/mérida"
-                        },
-                        {
-                          label: "Miranda",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/miranda"
-                        },
-                        {
-                          label: "Monagas",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/monagas"
-                        },
-                        {
-                          label: "Nueva Esparta",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/nueva-esparta"
-                        },
-                        {
-                          label: "Portuguesa",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/portuguesa"
-                        },
-                        {
-                          label: "Sucre",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/sucre"
-                        },
-                        {
-                          label: "Táchira",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/táchira"
-                        },
-                        {
-                          label: "Trujillo",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/trujillo"
-                        },
-                        {
-                          label: "Vargas",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/vargas"
-                        },
-                        {
-                          label: "Yaracuy",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/yaracuy"
-                        },
-                        {
-                          label: "Zulia",
-                          icon: "pi pi-flag-fill",
-                          to: "/estado/zulia"
-                        }
-                      ]
+                      {
+                        "label": "Amazonas",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-X"
+                      },
+                      {
+                        "label": "Anzoátegui",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-B"
+                      },
+                      {
+                        "label": "Apure",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-C"
+                      },
+                      {
+                        "label": "Aragua",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-D"
+                      },
+                      {
+                        "label": "Barinas",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-E"
+                      },
+                      {
+                        "label": "Bolívar",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-F"
+                      },
+                      {
+                        "label": "Carabobo",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-G"
+                      },
+                      {
+                        "label": "Cojedes",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-H"
+                      },
+                      {
+                        "label": "Delta Amacuro",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-Y"
+                      },
+                      {
+                        "label": "Distrito Capital",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-A"
+                      },
+                      {
+                        "label": "Falcón",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-I"
+                      },
+                      {
+                        "label": "Guárico",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-J"
+                      },
+                      {
+                        "label": "Lara",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-K"
+                      },
+                      {
+                        "label": "Mérida",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-L"
+                      },
+                      {
+                        "label": "Miranda",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-M"
+                      },
+                      {
+                        "label": "Monagas",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-N"
+                      },
+                      {
+                        "label": "Nueva Esparta",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-O"
+                      },
+                      {
+                        "label": "Portuguesa",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-P"
+                      },
+                      {
+                        "label": "Sucre",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-R"
+                      },
+                      {
+                        "label": "Táchira",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-S"
+                      },
+                      {
+                        "label": "Trujillo",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-T"
+                      },
+                      {
+                        "label": "Vargas",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-W"
+                      },
+                      {
+                        "label": "Yaracuy",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-U"
+                      },
+                      {
+                        "label": "Zulia",
+                        "icon": "pi pi-flag-fill",
+                        "to": "/estado/VE-V"
+                      }
+                    ]
                 },
                 { label: 'Notas', icon: 'pi pi-fw pi-home', to: '/notes' }
             
