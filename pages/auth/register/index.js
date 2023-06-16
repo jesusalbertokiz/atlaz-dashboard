@@ -65,7 +65,7 @@ const RegisterPage = () => {
 
                             <div className="flex align-items-center justify-content-between mb-5 gap-5">
                             </div>
-                            <Button label="Sign In" className="w-full p-3 text-xl"></Button>
+                            <Button label="Registrar" className="w-full p-3 text-xl"></Button>
                         </form>
                     </div>
                 </div>
