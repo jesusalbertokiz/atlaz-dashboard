@@ -35,7 +35,7 @@ const LoginPage = () => {
                     <div className="w-full surface-card py-8 px-5 sm:px-8" style={{ borderRadius: '53px' }}>
                         <div className="text-center mb-5">
                             <img src={`/layout/images/logo-${layoutConfig.colorScheme === 'light' ? 'dark' : 'white'}.svg`} alt="Atlaz logo" className="mb-5 w-12rem flex-shrink-0" />
-                            <div className="text-900 text-3xl font-medium mb-3">Bienvenido Titan</div>
+                            <div className="text-900 text-3xl font-medium mb-3">Bienvenido Titán</div>
                         </div>
                         <form onSubmit={handleSubmit}>
                             <label htmlFor="email" className="block text-900 text-xl font-medium mb-2">
@@ -50,7 +50,7 @@ const LoginPage = () => {
 
                             <div className="flex align-items-center justify-content-between mb-5 gap-5">
                             </div>
-                            <Button label="Sign In" className="w-full p-3 text-xl"></Button>
+                            <Button label="Entrar" className="w-full p-3 text-xl"></Button>
                         </form>
                     </div>
                 </div>
