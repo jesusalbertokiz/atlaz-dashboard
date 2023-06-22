@@ -9,9 +9,10 @@ const AppMenu = () => {
             label: 'Inicio',
             items: [
                 { label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/' },
+                { label: 'Mapa', icon: 'pi pi-fw pi pi-map', to: '/mapa' },
                 {
                     label: 'Estados',
-                    icon: 'pi pi-map',
+                    icon: 'pi-sitemap',
                     items: [
                       {
                         "label": "Amazonas",

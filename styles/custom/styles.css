@@ -1,0 +1,9 @@
+.cardMetric{
+    width: 100%;
+    min-width: 220px;
+    height: 120px;
+}
+a path:hover {
+    color: #ffa668;
+    fill: currentColor;
+  }

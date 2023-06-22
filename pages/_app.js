@@ -5,6 +5,7 @@ import 'primereact/resources/primereact.css';
 import 'primeflex/primeflex.css';
 import 'primeicons/primeicons.css';
 import '../styles/layout/layout.scss';
+import '../styles/custom/styles.css'
 
 
 export default function MyApp({ Component, pageProps }) {

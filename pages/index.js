@@ -179,8 +179,6 @@ const Dashboard = () => {
                 </div>
             </div>
 
-
-
 {/*Parte izquierda del dashboard*/}
             <div className="col-12 xl:col-6">
                 
