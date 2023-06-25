@@ -1,3 +1,4 @@
+//Esta funcion sirve para los charts
 export const RegisterServices = {
     getCompanyData() {
         const date = new Date();
