@@ -1,22 +1,23 @@
 import { useEffect, useState, useContext } from 'react';
 import { useRouter } from 'next/router';
 import CardPanel from '../../../src/components/cardPanel';
-import VenezuelaMap from '../../../src/components/venezuelaMap';
 import { Column } from 'primereact/column';
 import { DataTable } from 'primereact/datatable';
 import { LayoutContext } from '../../../layout/context/layoutcontext';
 import { EstatesService } from '../../../service/EstatesService';
 import { RegisterServices } from '../../../service/RegisterService';
-import { RegionService } from '../../../service/RegionServices';
+import { NameEstateServices } from '../../../service/NameEstateServices';
 import Link from 'next/link';
 import { Button } from 'primereact/button';
 import { Chart } from 'primereact/chart';
 
 function EstatePage() {
     const router = useRouter();
+    const { iso } = router.query;
     const [states, setStates] = useState(null);
     const [lineData, setLineData] = useState(null);
     const [lineOptions, setLineOptions] = useState(null);
+    const [name, setName] = useState("")
     const { layoutConfig } = useContext(LayoutContext);
 
     const applyLightTheme = () => {
@@ -101,13 +102,18 @@ function EstatePage() {
         setLineData(RegisterServices.getCompanyData())
     }, []);
     
-    const { iso } = router.query;
-    RegionService.getRegion(iso)
+    useEffect(() => {
+        if (router.query && router.query.iso) {
+            NameEstateServices.getname(iso[0], setName)
+        }
+      }, [router.query]);
+
+    
     
 
   return (
     <>
-      <p>El ID de la página es: {iso}</p>
+      <h1>{name}</h1>
       <div className="grid">
         <div className="col-12 lg:col-6 xl:col-3">
           <CardPanel
