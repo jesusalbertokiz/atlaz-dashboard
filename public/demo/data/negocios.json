@@ -1,0 +1,90 @@
+{
+    "Amazonas": {
+        "municipios": 7,
+        "cantidad_negocios": 3000
+    },
+    "Anzuategui": {
+        "municipios": 21,
+        "cantidad_negocios": 35000
+    },
+    "Apure": {
+        "municipios": 7,
+        "cantidad_negocios": 5000
+    },
+    "Aragua": {
+        "municipios": 18,
+        "cantidad_negocios": 55000
+    },
+    "Barinas": {
+        "municipios": 12,
+        "cantidad_negocios": 20000
+    },
+    "Boliva": {
+        "municipios": 9,
+        "cantidad_negocios": 35000
+    },
+    "Carabobo": {
+        "municipios": 14,
+        "cantidad_negocios": 60000
+    },
+    "Cojedes": {
+        "municipios": 9,
+        "cantidad_negocios": 5000
+    },
+    "Falcon": {
+        "municipios": 25,
+        "cantidad_negocios": 20000
+    },
+    "Guarico": {
+        "municipios": 15,
+        "cantidad_negocios": 10000
+    },
+    "Lara": {
+        "municipios": 9,
+        "cantidad_negocios": 50000
+    },
+    "Merida": {
+        "municipios": 23,
+        "cantidad_negocios": 30000
+    },
+    "Miranda": {
+        "municipios": 21,
+        "cantidad_negocios": 100000
+    },
+    "Monagas": {
+        "municipios": 13,
+        "cantidad_negocios": 15000
+    },
+    "Margarita": {
+        "municipios": 11,
+        "cantidad_negocios": 7000
+    },
+    "Portuquesa": {
+        "municipios": 14,
+        "cantidad_negocios": 15000
+    },
+    "Sucre": {
+        "municipios": 15,
+        "cantidad_negocios": 10000
+    },
+    "Táchira": {
+        "municipios": 29,
+        "cantidad_negocios": 35000
+    },
+    "Trujillo": {
+        "municipios": 20,
+        "cantidad_negocios": 15000
+    },
+    "La Guaira": {
+        "municipios": 1,
+        "cantidad_negocios": 10000
+    },
+    "Yaracuy": {
+        "municipios": 14,
+        "cantidad_negocios": 5000
+    },
+    "Zulia": {
+        "municipios": 20,
+        "cantidad_negocios": 120
+    }
+}

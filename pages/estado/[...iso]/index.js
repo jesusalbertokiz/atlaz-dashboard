@@ -6,7 +6,6 @@ import { DataTable } from 'primereact/datatable';
 import { LayoutContext } from '../../../layout/context/layoutcontext';
 import { EstatesService } from '../../../service/EstatesService';
 import { RegisterServices } from '../../../service/RegisterService';
-import { NameEstateServices } from '../../../service/NameEstateServices';
 import Link from 'next/link';
 import { Button } from 'primereact/button';
 import { Chart } from 'primereact/chart';
@@ -104,7 +103,7 @@ function EstatePage() {
     
     useEffect(() => {
         if (router.query && router.query.iso) {
-            NameEstateServices.getname(iso[0], setName)
+            EstatesService.getname(iso[0], setName)
         }
       }, [router.query]);
 

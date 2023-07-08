@@ -1,148 +1,172 @@
 {
-    "data": [
-      {
-        "estado": "Amazonas",
-        "registros": 67,
-        "embajadores": 4,
-        "iso": "VE-X"
-      },
-      {
-        "estado": "Anzoátegui",
-        "registros": 92,
-        "embajadores": 10,
-        "iso": "VE-B"
-      },
-      {
-        "estado": "Apure",
-        "registros": 23,
-        "embajadores": 7,
-        "iso": "VE-C"
-      },
-      {
-        "estado": "Aragua",
-        "registros": 84,
-        "embajadores": 16,
-        "iso": "VE-D"
-      },
-      {
-        "estado": "Barinas",
-        "registros": 20,
-        "embajadores": 3,
-        "iso": "VE-E"
-      },
-      {
-        "estado": "Bolívar",
-        "registros": 47,
-        "embajadores": 5,
-        "iso": "VE-F"
-      },
-      {
-        "estado": "Carabobo",
-        "registros": 31,
-        "embajadores": 1,
-        "iso": "VE-G"
-      },
-      {
-        "estado": "Cojedes",
-        "registros": 13,
-        "embajadores": 9,
-        "iso": "VE-H"
-      },
-      {
-        "estado": "Delta Amacuro",
-        "registros": 57,
-        "embajadores": 2,
-        "iso": "VE-Y"
-      },
-      {
-        "estado": "Distrito Capital",
-        "registros": 38,
-        "embajadores": 18,
-        "iso": "VE-A"
-      },
-      {
-        "estado": "Falcón",
-        "registros": 89,
-        "embajadores": 8,
-        "iso": "VE-I"
-      },
-      {
-        "estado": "Guárico",
-        "registros": 71,
-        "embajadores": 14,
-        "iso": "VE-J"
-      },
-      {
-        "estado": "Lara",
-        "registros": 96,
-        "embajadores": 15,
-        "iso": "VE-K"
-      },
-      {
-        "estado": "Mérida",
-        "registros": 45,
-        "embajadores": 1,
-        "iso": "VE-L"
-      },
-      {
-        "estado": "Miranda",
-        "registros": 99,
-        "embajadores": 3,
-        "iso": "VE-M"
-      },
-      {
-        "estado": "Monagas",
-        "registros": 71,
-        "embajadores": 11,
-        "iso": "VE-N"
-      },
-      {
-        "estado": "Nueva Esparta",
-        "registros": 59,
-        "embajadores": 5,
-        "iso": "VE-O"
-      },
-      {
-        "estado": "Portuguesa",
-        "registros": 60,
-        "embajadores": 7,
-        "iso": "VE-P"
-      },
-      {
-        "estado": "Sucre",
-        "registros": 98,
-        "embajadores": 1,
-        "iso": "VE-R"
-      },
-      {
-        "estado": "Táchira",
-        "registros": 4,
-        "embajadores": 4,
-        "iso": "VE-S"
-      },
-      {
-        "estado": "Trujillo",
-        "registros": 56,
-        "embajadores": 9,
-        "iso": "VE-T"
-      },
-      {
-        "estado": "Vargas",
-        "registros": 51,
-        "embajadores": 6,
-        "iso": "VE-W"
-      },
-      {
-        "estado": "Yaracuy",
-        "registros": 16,
-        "embajadores": 19,
-        "iso": "VE-U"
-      },
-      {
-        "estado": "Zulia",
-        "registros": 44,
-        "embajadores": 16,
-        "iso": "VE-V"
-      }
-    ]
-  }
+  "data": [
+    {
+      "estado": "Amazonas",
+      "registros": 67,
+      "embajadores": 4,
+      "iso": "VE-X",
+      "municipios": 7
+    },
+    {
+      "estado": "Anzoátegui",
+      "registros": 92,
+      "embajadores": 10,
+      "iso": "VE-B",
+      "municipios": 21
+    },
+    {
+      "estado": "Apure",
+      "registros": 23,
+      "embajadores": 7,
+      "iso": "VE-C",
+      "municipios": 7
+    },
+    {
+      "estado": "Aragua",
+      "registros": 84,
+      "embajadores": 16,
+      "iso": "VE-D",
+      "municipios": 18
+    },
+    {
+      "estado": "Barinas",
+      "registros": 20,
+      "embajadores": 3,
+      "iso": "VE-E",
+      "municipios": 12
+    },
+    {
+      "estado": "Bolívar",
+      "registros": 47,
+      "embajadores": 5,
+      "iso": "VE-F",
+      "municipios": 11
+    },
+    {
+      "estado": "Carabobo",
+      "registros": 31,
+      "embajadores": 1,
+      "iso": "VE-G",
+      "municipios": 14
+    },
+    {
+      "estado": "Cojedes",
+      "registros": 13,
+      "embajadores": 9,
+      "iso": "VE-H",
+      "municipios": 9
+    },
+    {
+      "estado": "Delta Amacuro",
+      "registros": 57,
+      "embajadores": 2,
+      "iso": "VE-Y",
+      "municipios": 4
+    },
+    {
+      "estado": "Distrito Capital",
+      "registros": 38,
+      "embajadores": 18,
+      "iso": "VE-A",
+      "municipios": 1
+    },
+    {
+      "estado": "Falcón",
+      "registros": 89,
+      "embajadores": 8,
+      "iso": "VE-I",
+      "municipios": 25
+    },
+    {
+      "estado": "Guárico",
+      "registros": 71,
+      "embajadores": 14,
+      "iso": "VE-J",
+      "municipios": 15
+    },
+    {
+      "estado": "Lara",
+      "registros": 96,
+      "embajadores": 15,
+      "iso": "VE-K",
+      "municipios": 9
+    },
+    {
+      "estado": "Mérida",
+      "registros": 45,
+      "embajadores": 1,
+      "iso": "VE-L",
+      "municipios": 23
+    },
+    {
+      "estado": "Miranda",
+      "registros": 99,
+      "embajadores": 3,
+      "iso": "VE-M",
+      "municipios": 21
+    },
+    {
+      "estado": "Monagas",
+      "registros": 71,
+      "embajadores": 11,
+      "iso": "VE-N",
+      "municipios": 13
+    },
+    {
+      "estado": "Nueva Esparta",
+      "registros": 59,
+      "embajadores": 5,
+      "iso": "VE-O",
+      "municipios": 11
+    },
+    {
+      "estado": "Portuguesa",
+      "registros": 60,
+      "embajadores": 7,
+      "iso": "VE-P",
+      "municipios": 14
+    },
+    {
+      "estado": "Sucre",
+      "registros": 98,
+      "embajadores": 1,
+      "iso": "VE-R",
+      "municipios": 15
+    },
+    {
+      "estado": "Táchira",
+      "registros": 4,
+      "embajadores": 4,
+      "iso": "VE-S",
+      "municipios": 29
+    },
+    {
+      "estado": "Trujillo",
+      "registros": 56,
+      "embajadores": 9,
+      "iso": "VE-T",
+      "municipios": 20
+    },
+    {
+      "estado": "Vargas",
+      "registros": 51,
+      "embajadores": 6,
+      "iso": "VE-W",
+      "municipios": 1
+    },
+    {
+      "estado": "Yaracuy",
+      "registros": 16,
+      "embajadores": 19,
+      "iso": "VE-U",
+      "municipios": 14
+    },
+    {
+      "estado": "Zulia",
+      "registros": 44,
+      "embajadores": 16,
+      "iso": "VE-V",
+      "municipios": 21
+    }
+  ]
+}
